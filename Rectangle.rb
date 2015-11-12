@@ -9,6 +9,12 @@ class Rectangle < Polygon
     super(id,color,4)
     @length = length
     @width = width
+    @perimeter = 2*length*width
+    @area = length*width
   end
 
+  def reshape(color, length,width) 
+    self.length = length
+    self.width = width
+  end
 end
