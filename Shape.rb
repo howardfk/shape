@@ -2,7 +2,7 @@
 
 # Shape's are closed contours including plygons circals
 class Shape
-  attr_reader :color, :id
+  attr_reader :color, :id, :num_of_shapes
   @@num_of_shapes  = 0
 
   def initialize(id,color)
@@ -17,7 +17,7 @@ class Shape
   end
   
   def kill
-    @@num_ofshapes -= 1
+    @@num_of_shapes -= 1
     #write code to kill the shape
   end
 

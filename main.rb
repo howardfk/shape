@@ -26,7 +26,9 @@ puts "Area: #{sqr1.area}"
 puts "Color: #{sqr1.color}"
 puts "ID: #{sqr1.id}"
 
-sqr1.how_many_shapes
+puts sqr1.how_many_shapes
+puts 'test num_of_shapes as attr_accessor'
+puts sqr1.num_of_shapes
 
 puts rec1.inspect
 puts sqr1.inspect
